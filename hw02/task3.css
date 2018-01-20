@@ -2,7 +2,7 @@ body{
   margin: 0px;
 }
 p{
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 a{
   font-size:1.5em;
@@ -14,27 +14,28 @@ a{
   margin:0px;
   text-align: center;
 }
+
 .column {
-  height:100%;
   float: left;
   padding: 0px;
 
 }
 .menu {
+  float: left;
   width: 33.33%;
-  background-color: #bbbbbb;
+  height: 100%;
+}
+*{
+  box-sizing: border-box;
 }
 .content {
+  float: right;
   padding: 15px;
   background-color: white;
   width: 66.67%;
 
 }
-* {
-  box-sizing: border-box;
-}
-.clearfix::after {
-  content: "";
+.clearfix{
   clear: both;
   display: table;
 }
@@ -44,6 +45,13 @@ a{
 .last-thing{
   display: none;
 }
-.f{
-  padding: 20px;
+.item.lorems{
+  margin-top: 8px;
+}
+.item{
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #bbbbbb;
+  color: #ffffff;
+  border-radius: 0px 100px 100px 0px;
 }
