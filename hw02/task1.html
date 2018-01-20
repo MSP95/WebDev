@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Task 1</title>
+      <style>
+         body{
+         font-size: 1.1em;
+         font-family: sans-serif;
+         }
+         h1{
+         font-size: 1.9em;
+         }
+         .d{
+         color: blue;
+         }
+         .o{
+         color: red;
+         }
+         .g{
+         color: green;
+         }
+         .section{
+         padding: 20px;
+         }
+         .top{
+         background-color: #373737;
+         color: white;
+         }
+         .middle{
+         background-color: #EFEFEF;
+         }
+         .dog-container{
+         float:right;
+         }
+         .dog-info{
+         float:left;
+         }
+         .clearfix{
+         clear:both;
+         }
+         .bottom{
+         background-color: #DCD0C0;
+         }
+         .bottom td, .bottom th {
+         border: 1px solid black;
+         padding: 8px 100px;
+         }
+         .bottom tr:nth-child(even){
+         background-color: #EFEFEF;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="section top">
+         <h1>Learn HTML, CSS</h1>
+         <ul>
+            <li><a class="top link a" href="https://www.w3schools.com/html/default.asp">
+               Learn HTML</a>
+            </li>
+            <li><a class="top link b" href="https://www.w3schools.com/css/default.asp">Learn CSS</a></li>
+         </ul>
+      </div>
+      <div class="section middle">
+         <div class="dog-info">
+            <h1><span class="dog d">D</span><span class="dog o">O</span><span class="dog g">G</span></h1>
+            <ul>
+               <li>
+                  <a href="https://en.wikipedia.org/wiki/Dog" alt="Dog">
+                  Wikipedia Link
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <div class="dog-container">
+            <figure style="width: 512px;">
+               <img id="dog-img" src="512px-Cavalier_King_Charles_Spaniel_trio.jpg" alt="Dog Image">
+               <figcaption>
+                  <small>
+                  Image By tanakawho from Tokyo, Japan (Flickr) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons
+                  </small>
+               </figcaption>
+            </figure>
+         </div>
+         <div class="clearfix"></div>
+      </div>
+      <div class="section bottom">
+         <table id="two">
+            <h1> Powers of Two</h1>
+            <tr>
+               <th>x</th>
+               <th>2<sup>x</sup></th>
+            </tr>
+            <tr>
+               <td>0</td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>2</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>4</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>8</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>16</td>
+            </tr>
+            <tr>
+               <td>5</td>
+               <td>32</td>
+            </tr>
+            <tr>
+               <td>6</td>
+               <td>64</td>
+            </tr>
+            <tr>
+               <td>7</td>
+               <td>128</td>
+            </tr>
+         </table>
+      </div>
+   </body>
+</html>

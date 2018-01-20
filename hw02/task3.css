@@ -1,0 +1,49 @@
+body{
+  margin: 0px;
+}
+p{
+  font-size: 1.3em;
+}
+a{
+  font-size:1.5em;
+}
+
+#big-title{
+  background-color: #d9d9d9;
+  padding: 30px 2px;
+  margin:0px;
+  text-align: center;
+}
+.column {
+  height:100%;
+  float: left;
+  padding: 0px;
+
+}
+.menu {
+  width: 33.33%;
+  background-color: #bbbbbb;
+}
+.content {
+  padding: 15px;
+  background-color: white;
+  width: 66.67%;
+
+}
+* {
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.bottles{
+  display: none;
+}
+.last-thing{
+  display: none;
+}
+.f{
+  padding: 20px;
+}
