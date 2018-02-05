@@ -27,7 +27,7 @@ defmodule Calc do
   # ///////////////////////////////////////////////////////////////////////////
   # loop to keep the program endlessly running, waiting each time for user input.
   def main do
-    IO.gets("\nEnter Expression Here: ")
+    IO.gets("> ")
     |> eval()
     |> IO.puts()
     main()
